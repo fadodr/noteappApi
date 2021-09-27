@@ -1,0 +1,25 @@
+{
+  "name": "noteappjs",
+  "version": "1.0.0",
+  "description": "a note app api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "fadodr",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7",
+    "multer": "^1.4.2",
+    "randomatic": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
